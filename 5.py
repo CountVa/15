@@ -21,5 +21,6 @@ def cakes():
     for i in range(len(g)):
         g2.append(g1[i] // g[i])
     print(min(g2))
+    print(slov2, slov1)
 cakes()
 
